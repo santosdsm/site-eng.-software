@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Engenharia de Software no RJ</title>
+    <style>
+        :root {
+            --primary: #2c3e50;
+            --secondary: #3498db;
+            --accent: #e74c3c;
+            --light: #ecf0f1;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background: var(--primary);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+
+        nav {
+            background: #fff;
+            padding: 1rem;
+            position: sticky;
+            top: 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            text-align: center;
+            z-index: 1000;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: var(--primary);
+            font-weight: bold;
+        }
+
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: auto;
+            overflow: hidden;
+            padding: 2rem 0;
+        }
+
+        section {
+            background: white;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+
+        h2 {
+            color: var(--secondary);
+            border-bottom: 2px solid var(--light);
+            padding-bottom: 10px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1rem;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: var(--primary);
+            color: white;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-size: 0.85rem;
+            font-weight: bold;
+        }
+
+        .publica { background-color: #27ae60; color: white; }
+        .privada { background-color: #f1c40f; color: black; }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background: var(--primary);
+            color: white;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Engenharia de Software no Rio de Janeiro</h1>
+    <p>O Guia Completo para o Bacharelado no Estado</p>
+</header>
+
+<nav>
+    <a href="#sobre">O que é?</a>
+    <a href="#como-funciona">Como funciona</a>
+    <a href="#onde-estudar">Onde Estudar no RJ</a>
+    <a href="#ingresso">Notas de Corte</a>
+</nav>
+
+<div class="container">
+    
+    <section id="sobre">
+        <h2>O que é o curso?</h2>
+        <p>A <strong>Engenharia de Software</strong> é o ramo da engenharia focado no desenvolvimento, manutenção e gerenciamento de sistemas de software complexos. Ao contrário da Ciência da Computação, que é mais teórica, a Engenharia de Software foca na aplicação de processos rigorosos para garantir que o software seja confiável, eficiente e entregue no prazo.</p>
+        <p>O profissional aprende a transformar uma necessidade do usuário em um sistema funcional, utilizando metodologias ágeis, arquitetura de sistemas e gestão de qualidade.</p>
+    </section>
+
+    <section id="como-funciona">
+        <h2>Como funciona o Bacharelado</h2>
+        <p>O curso de Bacharelado tem duração média de <strong>4 a 5 anos</strong> (8 a 10 períodos). A grade curricular geralmente é dividida em três grandes eixos:</p>
+        <ul>
+            <li><strong>Fundamentos:</strong> Algoritmos, Lógica de Programação, Estruturas de Dados e Matemática Discreta.</li>
+            <li><strong>Técnico:</strong> Bancos de Dados, Desenvolvimento Web/Mobile, Arquitetura de Software e Inteligência Artificial.</li>
+            <li><strong>Gestão:</strong> Engenharia de Requisitos, Gerenciamento de Projetos e Qualidade de Software.</li>
+        </ul>
+        <p>No final, é obrigatória a realização do TCC (Trabalho de Conclusão de Curso) e, na maioria das vezes, o estágio supervisionado.</p>
+    </section>
+
+    <section id="onde-estudar">
+        <h2>Onde Estudar no Rio de Janeiro</h2>
+        <p>Confira as principais universidades que oferecem o curso (Presencial e EAD) no estado:</p>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Instituição</th>
+                    <th>Tipo</th>
+                    <th>Modalidade</th>
+                    <th>Localização Principal</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>UFRJ (Poli-UFRJ)</td>
+                    <td><span class="badge publica">Pública</span></td>
+                    <td>Presencial / Pós*</td>
+                    <td>Cidade Universitária</td>
+                </tr>
+                <tr>
+                    <td>PUC-Rio</td>
+                    <td><span class="badge privada">Privada</span></td>
+                    <td>Presencial</td>
+                    <td>Gávea</td>
+                </tr>
+                <tr>
+                    <td>INFNET</td>
+                    <td><span class="badge privada">Privada</span></td>
+                    <td>Presencial/EAD</td>
+                    <td>Centro</td>
+                </tr>
+                <tr>
+                    <td>Universidade Veiga de Almeida (UVA)</td>
+                    <td><span class="badge privada">Privada</span></td>
+                    <td>Presencial/EAD</td>
+                    <td>Tijuca/Barra/Cabo Frio</td>
+                </tr>
+                <tr>
+                    <td>Estácio de Sá</td>
+                    <td><span class="badge privada">Privada</span></td>
+                    <td>Presencial/EAD</td>
+                    <td>Diversos Campi</td>
+                </tr>
+                <tr>
+                    <td>UniCarioca</td>
+                    <td><span class="badge privada">Privada</span></td>
+                    <td>Presencial/EAD</td>
+                    <td>Rio Comprido / Méier</td>
+                </tr>
+                <tr>
+                    <td>Universidade de Vassouras</td>
+                    <td><span class="badge privada">Privada</span></td>
+                    <td>Presencial</td>
+                    <td>Vassouras / Maricá</td>
+                </tr>
+            </tbody>
+        </table>
+        <p><em>*Nota: Na UFRJ, o bacharelado direto em Engenharia de Software é integrado em áreas como Eng. de Computação ou ofertado em cursos específicos de extensão e pós, sendo a Eng. de Computação a via principal no Sisu.</em></p>
+    </section>
+
+    <section id="ingresso">
+        <h2>Notas de Corte (Vestibulares Públicos)</h2>
+        <p>Para ingressar em universidades públicas via <strong>SiSU (ENEM)</strong> em cursos da área de TI no Rio de Janeiro, as notas de corte aproximadas são:</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Curso Relacionado</th>
+                    <th>Instituição</th>
+                    <th>Média de Corte (Ampla)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Eng. de Computação e Informação</td>
+                    <td>UFRJ</td>
+                    <td>~ 807 - 815 pontos</td>
+                </tr>
+                <tr>
+                    <td>Eng. de Computação</td>
+                    <td>UERJ</td>
+                    <td>Exame Próprio (Corte Alto)</td>
+                </tr>
+                <tr>
+                    <td>Ciência da Computação</td>
+                    <td>UFRJ / UFF</td>
+                    <td>~ 780 - 800 pontos</td>
+                </tr>
+            </tbody>
+        </table>
+        <p><em>Dica: Em faculdades privadas, o ingresso pode ser feito via ProUni, Fies ou vestibular simplificado, com bolsas de até 100%.</em></p>
+    </section>
+
+</div>
+
+<footer>
+    <p>&copy; 2026 - Guia de Engenharia de Software RJ. Desenvolvido para fins demonstrativos.</p>
+</footer>
+
+</body>
+</html>
